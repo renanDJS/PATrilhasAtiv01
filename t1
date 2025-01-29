@@ -1,0 +1,16 @@
+using System;
+
+namespace at2A
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("digite um numero ");
+			int numero = int.Parse(Console.ReadLine());
+			Console.ReadLine();
+			Console.WriteLine("O NUMERO DIGITADO FOI: " +numero);
+			Console.ReadKey();
+		}
+	}
+}
